@@ -1,0 +1,33 @@
+body {
+  margin: auto;
+  background: rgb(195, 195, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(195, 195, 195, 1) 0%,
+    rgba(238, 238, 238, 1) 50%,
+    rgba(195, 195, 195, 1) 100%
+  );
+  font-size: 14px;
+  overflow-x: hidden;
+  font-family: Verdana;
+}
+
+.theme {
+  background-color: blueviolet !important;
+}
+
+@media (max-width: 990px) {
+  .logo-icon {
+    width: 1.5rem;
+  }
+}
+
+@media (min-width: 991px) {
+  .logo-icon {
+    width: 50%;
+  }
+}
+
+.navbar form {
+  width: 50%;
+}
